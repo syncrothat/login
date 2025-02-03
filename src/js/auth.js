@@ -67,6 +67,6 @@ document.getElementById('submittwo').addEventListener('click', function(event) {
     })
     .catch(error => {
         console.error('Fetch error:', error);
-        alert('An error occurred while trying to log in.');
+        alert('Password Salah');
     });
 });
