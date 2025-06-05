@@ -60,7 +60,7 @@ document.getElementById('submittwo').addEventListener('click', function(event) {
     
         if (data.token) {
             localStorage.setItem('iss_token', data.token);
-            window.location.href = 'https://syncroapp.github.io/Desk';
+            window.location.href = 'https://syncro.herobuxx.me/Desk';
         } else {
             alert('Login failed: ' + (data.message || 'Unknown error'));
         }
